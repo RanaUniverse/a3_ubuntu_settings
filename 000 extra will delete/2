@@ -5,7 +5,7 @@ last-used-version='0.5.0'
 width=360
 
 [com/ubuntu/update-notifier]
-release-check-time=uint32 1723398280
+release-check-time=uint32 1740713687
 
 [desktop/ibus/panel/emoji]
 favorites=['🍌']
@@ -16,6 +16,22 @@ window-state=(980, 640, true)
 
 [org/gnome/desktop/app-folders]
 folder-children=['dc17d1b3-4645-4904-a153-3c8a863ebc6d']
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
 
 [org/gnome/desktop/app-folders/folders/dc17d1b3-4645-4904-a153-3c8a863ebc6d]
 apps=['software-properties-drivers.desktop', 'nm-connection-editor.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.Characters.desktop', 'org.gnome.clocks.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'firmware-updater_firmware-updater.desktop', 'org.gnome.font-viewer.desktop', 'yelp.desktop', 'org.gnome.eog.desktop', 'gnome-language-selector.desktop', 'org.gnome.Logs.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.Settings.desktop', 'software-properties-gtk.desktop', 'update-manager.desktop', 'gnome-session-properties.desktop', 'org.gnome.SystemMonitor.desktop']
@@ -31,8 +47,9 @@ primary-color='#000000000000'
 secondary-color='#000000000000'
 
 [org/gnome/desktop/input-sources]
-mru-sources=@a(ss) []
+mru-sources=[('xkb', 'in+eng'), ('xkb', 'in+ben')]
 sources=[('xkb', 'in+eng'), ('xkb', 'in+ben')]
+xkb-options=@as []
 
 [org/gnome/desktop/interface]
 clock-format='24h'
@@ -45,10 +62,13 @@ show-battery-percentage=true
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['com-obsproject-studio', 'org-gnome-texteditor', 'org-gnome-shell-extensions']
+application-children=['com-obsproject-studio', 'org-gnome-texteditor', 'org-gnome-shell-extensions', 'org-gnome-nautilus']
 
 [org/gnome/desktop/notifications/application/com-obsproject-studio]
 application-id='com.obsproject.Studio.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-shell-extensions]
 application-id='org.gnome.Shell.Extensions.desktop'
@@ -98,13 +118,16 @@ toggle-tiled-left=@as []
 toggle-tiled-right=@as []
 
 [org/gnome/nautilus/preferences]
-default-folder-viewer='icon-view'
+default-folder-viewer='list-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 
 [org/gnome/nautilus/window-state]
-initial-size=(890, 550)
+initial-size=(360, 380)
 maximized=true
+
+[org/gnome/portal/filechooser/org.chromium.Chromium]
+last-folder-path='/home/rana-universe/Downloads/28 February 2025/brave_browser_1.75.180'
 
 [org/gnome/portal/filechooser/org.gnome.Settings]
 last-folder-path='/home/rana-universe/Pictures/Images'
@@ -151,7 +174,18 @@ sleep-inactive-battery-timeout=3600
 
 [org/gnome/shell]
 app-picker-layout=[{'b9e8e75c-81af-452b-9c35-1c6b494b82d8': <{'position': <0>}>, 'snap-store_snap-store.desktop': <{'position': <1>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <2>}>, 'firefox_firefox.desktop': <{'position': <3>}>, 'com.obsproject.Studio.desktop': <{'position': <4>}>, 'org.gnome.TextEditor.desktop': <{'position': <5>}>, 'vlc.desktop': <{'position': <6>}>}]
-enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'dash-to-panel@jderose9.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'clipboard-indicator@tudmotu.com']
+disabled-extensions=['ubuntu-dock@ubuntu.com']
+enabled-extensions=['ding@rastersoft.com', 'tiling-assistant@ubuntu.com', 'dash-to-panel@jderose9.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'clipboard-indicator@tudmotu.com']
+
+
+enabled-extensions=['ding@rastersoft.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com','dash-to-panel@jderose9.github.com', 'clipboard-indicator@tudmotu.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'panelnote@gittymac.github.io']
+
+
+enabled-extensions=['ding@rastersoft.com', 'dash-to-panel@jderose9.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'notification-banner-reloaded@marcinjakubowski.github.com', ]
+
+
+
+
 favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop']
 welcome-dialog-last-shown-version='46.0'
 
