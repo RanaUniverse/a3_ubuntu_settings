@@ -1,4 +1,4 @@
-echo "This will make the Ubuntu Desktop Interface Minimal ✨, Optimized 🚀 & Powerful 🔥 for a better experience."
+echo "This will make the Ubuntu Desktop Interface Minimal ✨, Optimized 🚀 & Powerful 🔥 for a better user experience."
 
 
 
@@ -9,6 +9,7 @@ mkdir -pv ~/RanaUniverse
 mkdir -pv ~/workspaces  
 
 cp -v 00_important_files/inside_pictures/*.png ~/Pictures
+cp -v 00_important_files/inside_RanaUniverse/main.py ~/RanaUniverse/
 
 echo "Images & Necessary Files has been Created Successfully. 🖼️"
 
@@ -27,6 +28,7 @@ sudo dpkg -i 02_gnome-shell-extensions/*.deb
 echo "🎉 The Extension Manager & Some Extensions Have Been Installed Successfully! 🚀"
 
 ./zzz_extra_need/progress_line_animation.sh
+
 
 
 
@@ -57,7 +59,7 @@ echo "Please Wait Some Time to Complete all the steps."
 
 
 
-# Below line is opening the ~/.bashrc file and adding my custom terminal shortcuts
+# Below line is opening the ~/.bashrc file and adding my custom terminal shortcuts.
 
 ./zzz_extra_need/terminal_alias.sh
 
