@@ -35,6 +35,8 @@ mru-sources=@a(ss) []
 sources=[('xkb', 'in+eng'), ('xkb', 'in+ben')]
 
 [org/gnome/desktop/interface]
+clock-format='24h'
+clock-show-seconds=true
 color-scheme='prefer-dark'
 cursor-size=100
 gtk-theme='Yaru-blue-dark'
@@ -119,27 +121,27 @@ custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybin
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Shift><Control><Alt><Super>p'
 command='poweroff'
-name='Shut Down Laptop'
+name='Power Shut Down Laptop'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
 binding='<Shift><Control><Alt><Super>r'
 command='reboot'
-name='Restart Laptop'
+name='Power Restart Laptop'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Shift><Control><Alt><Super>s'
+command='systemctl suspend'
+name='Power Sleep My Laptop'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
 binding='<Control><Super>e'
 command='nautilus'
 name='Open File Manager Application'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
 binding='<Control><Super>i'
 command='gnome-control-center'
-name='Open Settings Applicatioin '
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
-binding='<Control><Super>f'
-command='firefox'
-name='Open Firefox Browser Application'
+name='Open Settings Application'
 
 [org/gnome/settings-daemon/plugins/power]
 power-button-action='suspend'
