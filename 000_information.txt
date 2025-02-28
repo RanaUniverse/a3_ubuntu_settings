@@ -45,3 +45,9 @@ Part 4:
 *** Information ***
 
 i used ```dconf dump / > 1.bkup``` to get the bkup file which i do to backup all my settings and so on. 
+
+
+To know some information about dconf and how to use it properly use this,
+
+https://pimylifeup.com/ubuntu-reset-settings/
+https://askubuntu.com/questions/22313/what-is-dconf-what-is-its-function-and-how-do-i-use-it
