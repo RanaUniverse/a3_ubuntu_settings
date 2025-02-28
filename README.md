@@ -1,16 +1,15 @@
 # Ubuntu Desktop Settings 🖥️
 
 
-I last worked on 27 February 2025.
 
 
 ## This Project is for change the Desktop Interface and Settings for Ubuntu Linux Distributions. 🎨
 
-[This Repository](./) is for the automation of my favourite customization to the interface of the Ubuntu os.
+[This Repository](./) is for the automation of my favourite interface & customization to the Ubuntu os for PC.
 
 It will also help me to access my Favourite Shortcut Keys Combinations easily.
 
-This is My Favourite Optimized & Minimal interface settings for Ubuntu for easy to use and easy to access .
+This is My Favourite Optimized & Minimal interface settings for Ubuntu for easy to use and easy to access.
 
 
 
@@ -19,14 +18,14 @@ This is My Favourite Optimized & Minimal interface settings for Ubuntu for easy 
 ## 🚀 How to Use This Project? 🤔  
 
 ### 🔹 1. Check Release Information  
-I am working on **different versions** of this project to improve stability and compatibility.  
+I am working on **different versions** of this project to improve stability and compatibility with differnt versions of Ubuntu Linux.
 👉 [View Release Details & Updates](./releases_information.md)  
 
 ### 🔹 2. Install & Set Up Ubuntu Easily  
 After installing **Ubuntu OS** on a laptop or computer, use this script to set up everything **quickly and effortlessly**—even **offline**!  
 
 ### 🔹 3. Get Started 
-**Clone the repository** or **download a release**.  
+**Clone the repository** or **download a release**.
 **Run the installation script:**:-   `./installation_script.sh`
 
 
@@ -37,7 +36,7 @@ After installing **Ubuntu OS** on a laptop or computer, use this script to set u
 
 ## Which Ubuntu Version This code Support? 🛠️
 
-Currently, i am making this repository compatible with **Ubuntu 24.04 LTS**.  
+Currently, i am making this repository compatible with **Ubuntu 24.04 LTS**.
 
 | File Name | Release Date | Size |
 |:-------------------------------|:-----------------|:-----|
@@ -54,7 +53,7 @@ Currently, i am making this repository compatible with **Ubuntu 24.04 LTS**.
 
 ### 📥 Download Ubuntu 24.04 LTS  
 
-We can choose to download this file from the following link:  
+We can choose to download the iso file from the following link:  
 🔗 [Ubuntu 24.04 LTS Release Page](https://old-releases.ubuntu.com/releases/noble/)  
 
 📌 **Direct ISO Download:**  
@@ -66,11 +65,11 @@ We can choose to download this file from the following link:
 
 
 
-## What Does The Code Do? 🤔
+## What & How does this code work? 🤔
 
 This project help me to setup Ubuntu os machine easily with the ```sudo apt install gnome-shell-extension-manager``` and then ```sudo apt install gnome-shell-extensions```.
 
-I mainly want one taskbar/panel in my desktop interface, so that i can easily navigate my mouse and use keyboard shortcut to access apps easily. It works like download the online extensions and then using the doncf file it will help to get back all the settings i changes in the extensions, settings, shortcuts and so on. Everything is there in the ```./installation_script.sh``` file which will do the work automtically.
+I mainly want one taskbar/panel in my desktop interface, so that i can easily navigate my mouse and use keyboard shortcut to access apps easily. It works like download the online extensions and then using the doncf file it will help to get back all the settings i changes in the extensions, settings, shortcuts and so on. Everything is there in the ```./installation_script.sh``` file which will do the work automtically. It little looks like the Windows 10 interface with full customization potential.
 
 
 
