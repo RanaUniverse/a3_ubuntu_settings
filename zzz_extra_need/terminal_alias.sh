@@ -4,27 +4,32 @@
 
 # i used ```& disown``` so that if i close my terminal app it will not shut down my running app.
 
+# Command: `brave`- This when i install brave using snap package
+# Command: `brave-browser`- this when i install this from official way or from apt manually with proper keyring.
 
 
-echo "Some Terminal Alias is Creating Now."
+
+
+echo "Some My own Terminal Alias is Creating Now. -Rana Universe 🍌🍌🍌>"
+
 
 (cat << 'EOF' && cat ~/.bashrc) > ~/.bashrc.tmp && mv ~/.bashrc.tmp ~/.bashrc
 
 # This is for my favourite terminal shortcut i use- Rana Universe 🍌🍌🍌
-alias 3_apps='brave & ~/.apps_and_softwares/Telegram/Telegram & code & exit'
-alias 3='brave & ~/.apps_and_softwares/Telegram/Telegram & code & exit'
+alias 3_apps='brave-browser & ~/.apps_and_softwares/Telegram/Telegram & code & exit'
+alias 3='brave-browser & ~/.apps_and_softwares/Telegram/Telegram & code & exit'
 
 # this below is for github
-alias github='brave https://github.com/RanaUniverse?tab=repositories & disown && exit'
-alias g='brave https://github.com/RanaUniverse?tab=repositories & disown && exit'
+alias github='brave-browser https://github.com/RanaUniverse?tab=repositories & disown && exit'
+alias g='brave-browser https://github.com/RanaUniverse?tab=repositories & disown && exit'
 
 # For YouTube full and short
-alias youtube='brave https://www.youtube.com/ & disown && exit'
-alias y='brave https://www.youtube.com/ & disown && exit'
+alias youtube='brave-browser https://www.youtube.com/ & disown && exit'
+alias y='brave-browser https://www.youtube.com/ & disown && exit'
 
 # For ChatGPT full and short
-alias chatgpt='brave https://chatgpt.com/ & disown && exit'
-alias c='brave https://chatgpt.com/ & disown && exit'
+alias chatgpt='brave-browser https://chatgpt.com/ & disown && exit'
+alias c='brave-browser https://chatgpt.com/ & disown && exit'
 
 
 EOF
